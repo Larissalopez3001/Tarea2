@@ -1,0 +1,76 @@
+<!--Larissa López Basurto-->
+<!--Quinto B-->
+<!--Aplicaciones Web I-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tarea 2 - Formulario con HTML, CSS, Javascript</title>
+	<link rel="stylesheet" type="text/css" href="Tarea2.css">
+    <link rel="icon" type="text/css" href="img/logo.png">
+    </head>
+<body>
+	<div class="formulario">
+        <!--TITULO-->
+        <h1 class="titulo">Registro de clientes</h1>
+        <img  class="imagen" src="img/formulario.jpg">
+        <!--FORMULARIO-->
+		<form name="formulario1" action="#" onsubmit="return aceptar()">
+			<!--NOMBRES-->
+			<label for="nombre">Nombre: </label> <br> 
+			<input class="fo-inp" id="inombre" type="text" name="nombre" required ><br>
+			<!--APELLIDO-->
+            <label for="apellidos">Apellidos: </label> <br>
+            <input class="fo-inp" id="iapellido" type="text" name="apellidos" required ><br>
+            <!--CEDULA-->
+             <label for="cedula"> Cédula de identidad: </label> <br> 
+             <input class="fo-inp" id="icedula"type="text" name="cedula" maxlength="10" required ><br>
+             <!--CORREO-->
+            <label for="email">Correo electrónico: </label> <br> 
+            <input class="fo-inp" id="icorreo" type="email" name="email_control" required ><br>
+             <!--DIRECCION-->
+            <label >Dirección: </label> <br> 
+            <input class="fo-inp" id="idireccion" type="text"  ><br><br>
+            <!--FECHA DE NACIMIENTO-->
+             <label for="date">Fecha de nacimiento:</label>  &nbsp <input class="fo-sele" id="fecha" type="date" name="date_control"> 
+             <!--EDAD-->
+            <label for="edad">Edad:</label> 
+            <input class="fo-sele" id="edad" type="number" name="edad"> <br><br>
+            <!--SEXO-->
+            <label  for="checkbox">Sexo:</label>
+            <input  type="checkbox" name="masculino" >
+            <label for="masculino"> Maculino</label>
+            <input id="sexo" type="checkbox" name="femenino" > 
+            <label for="femenino"> Femenino</label><br><br>
+            <!--TELEFONO-->
+            <label for="tel"> Teléfono:</label><br><input id="telefono" class="fo-inp" type="tel" name="tel_control" required ><br><br>
+            <!--ESTADO CIVIL-->
+             <label for="e_civil">Estado civil:</label>
+             <select id="estado" class="fo-inp" name="estado">
+                <option value="elegir">Elige una opción</option>
+             		<option >Soltero/a</option>
+				    <option >Casado/a</option>
+				    <option >Unión de hecho</option>
+				    <option >Divorciado/a</option>
+				    <option >Viudo/a</option>
+             </select><br><br>
+             <!--COMENTARIOS-->
+              <label>Deje su comentario:</label> <br><center><textarea id="comentario" class="text-area" name="message"></textarea> </center><br>
+               <!--TERMINOS DE PRIVACIDAD-->
+              <input type="checkbox" name="condiciones" value="aceptado" />
+            He leido y acepto las políticas de privacidad <br/><br/>
+            <!--BOTONES-->
+             <input class="boton"  type="submit"  onclick="myFunction()" value="Enviar" > 
+            <input class="boton" onclick="limpiar()" id="boton" type="reset" value="Limpiar" >
+		</form>
+	</div>
+     <!--FOOTER-->
+     <footer>
+         <p class="estudiante" ><i>Larissa López - Quinto "B"</i></p> <p class="docente" > <i> Ing. Patricia Quiroz.</i></p> <p class="materia" > <i > Aplicaciones Web I </i></p>
+     </footer>
+     <!--JAVASCRIPT-->
+   <script  type="text/javascript" src="Tarea2.js"></script>
+</body>
+
+</html>

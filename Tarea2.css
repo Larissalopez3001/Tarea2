@@ -1,0 +1,106 @@
+/*Larissa López*/
+/*Quinto b*/
+/*Apllicaciones Web I*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+
+  background-image: linear-gradient(to right,  #66CDAA 10%, #ff8b9d 90%);
+}
+/*Estilos para H1*/
+.titulo{
+  text-align: center;
+  color: #66CDAA;
+  font-family: georgia, arial;
+  margin-bottom: 0px;
+}
+
+.imagen {
+  margin-top: 0.1%;
+  margin-bottom: 0;
+  height: 78%;
+  width: 92%;
+}
+form {
+margin-top: 0%;
+
+}
+.formulario {
+  width: 800px;
+  left: 1000%;
+	display: grid;
+  margin-top: 1%;
+  margin-left: 24%;
+  margin-right: 24%;
+  margin-bottom: 1%;
+ 	place-items: center;
+  background: white;
+  color:  #7a7672;
+  padding-top: 20px;
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-bottom: 1.2%;
+  border-radius: 0.9%;
+  border: 1px solid  azure;
+  box-shadow: 0 0 10px 0 rgba(0, 100, 100, 0.8);
+}
+/*Estilo para el boton ENVIAR*/
+.boton {
+  height: 45px;
+  width: 95px;
+  border-radius: 5px;
+  color: black;
+  border-color: azure;
+  font-family: georgia, arial;
+  font-size: 18px;
+  background-image: linear-gradient(to right,  #bdefd9 10%, #ffbabc 90%);
+  margin-left: 20%;
+}
+.cen-boton{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.fo-inp{
+  height: 25px;
+  width: 45%;
+  border-radius: 3px;
+  border-color: #bbe5e5;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background:  #bdefd9;
+  opacity: 50%;
+  color: black;
+ 
+}
+  .fo-inp:focus {
+  background: azure;
+  }
+.fo-sele{
+   border-radius: 3px;
+  border-color:  #bbe5e5;
+  background:  #bdefd9;
+  opacity: 60%;
+}
+
+.text-area{
+  width: 80%;
+  height: 80px;
+  border-color:  #bbe5e5;
+   background:  #bdefd9;
+  opacity: 30%;
+}
+p{
+ display: inline;
+ font-size: 16px;
+
+
+}
+.docente{
+ margin-left: 35%;
+}
+.materia{
+ margin-left: 35%;
+}
