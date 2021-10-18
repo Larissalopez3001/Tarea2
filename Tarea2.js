@@ -15,8 +15,8 @@ function aceptar() {
 
     //LIMPIAR CAMPOS O DATOS REQUERIDOS
     function limpiar() { //Función limpiar 
-        var inp = document.getElementsByClassName('input');
-        for (var datos = 0; datos < inp.length; datos++) {
+        var inp = document.getElementsByClassName('fo-inp');
+        for (var i = 0; i < inp.length; i++) {
             inp[i].addEventListener('keyup', function () {
                 if (this.value.length >= 1) {
                     this.nextElementSibling.classList.add('determinar');
